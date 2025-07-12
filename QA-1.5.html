@@ -1,0 +1,431 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://unpkg.com https://d3js.org https://threejs.org https://cdn.plot.ly https://stackpath.bootstrapcdn.com https://maps.googleapis.com https://cdn.tailwindcss.com https://ajax.googleapis.com https://kit.fontawesome.com https://cdn.datatables.net https://maxcdn.bootstrapcdn.com https://code.highcharts.com https://tako-static-assets-production.s3.amazonaws.com https://www.youtube.com https://fonts.googleapis.com https://fonts.gstatic.com https://pfst.cf2.poecdn.net https://puc.poecdn.net https://i.imgur.com https://wikimedia.org https://*.icons8.com https://*.giphy.com https://picsum.photos https://images.unsplash.com; frame-src 'self' https://www.youtube.com https://trytako.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://unpkg.com https://d3js.org https://threejs.org https://cdn.plot.ly https://stackpath.bootstrapcdn.com https://maps.googleapis.com https://cdn.tailwindcss.com https://ajax.googleapis.com https://kit.fontawesome.com https://cdn.datatables.net https://maxcdn.bootstrapcdn.com https://code.highcharts.com https://tako-static-assets-production.s3.amazonaws.com https://www.youtube.com https://fonts.googleapis.com https://fonts.gstatic.com https://pfst.cf2.poecdn.net https://puc.poecdn.net https://i.imgur.com https://wikimedia.org https://*.icons8.com https://*.giphy.com https://picsum.photos https://images.unsplash.com; frame-src 'self' https://www.youtube.com https://trytako.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;"><meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://unpkg.com https://d3js.org https://threejs.org https://cdn.plot.ly https://stackpath.bootstrapcdn.com https://maps.googleapis.com https://cdn.tailwindcss.com https://ajax.googleapis.com https://kit.fontawesome.com https://cdn.datatables.net https://maxcdn.bootstrapcdn.com https://code.highcharts.com https://tako-static-assets-production.s3.amazonaws.com https://www.youtube.com https://fonts.googleapis.com https://fonts.gstatic.com https://pfst.cf2.poecdn.net https://puc.poecdn.net https://i.imgur.com https://wikimedia.org https://*.icons8.com https://*.giphy.com https://picsum.photos https://images.unsplash.com; frame-src 'self' https://www.youtube.com https://trytako.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 1, Lesson 1.5: The Auditor's Toolkit: Effective Communication and Interview Techniques</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        h1 {
+            text-align: center;
+            color: #1a5276;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.6em;
+        }
+        h3 {
+            font-size: 1.3em;
+            color: #34495e;
+        }
+        .lesson-section {
+            margin-bottom: 25px;
+            padding: 15px;
+            background-color: #ecf0f1;
+            border-left: 5px solid #3498db;
+            border-radius: 4px;
+        }
+        .lesson-section p {
+            margin-bottom: 10px;
+        }
+        .example {
+            background-color: #e8f6f3;
+            border-left: 5px solid #1abc9c;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .example strong {
+            color: #16a085;
+        }
+        /* Style for GLP sub-examples */
+        .glp-sub-example {
+            background-color: #f0f8ff; /* Lighter blue background */
+            border: 1px solid #a7d9ff; /* Light blue border */
+            border-radius: 4px;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+        .glp-sub-example strong {
+            color: #2196f3; /* Blue color for the label */
+        }
+
+        .quiz-question {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .quiz-question p {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .quiz-question ol {
+            list-style-type: lower-alpha;
+            margin-left: 20px;
+        }
+        .quiz-question li {
+            margin-bottom: 8px;
+        }
+        .answer-reveal {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #d4edda;
+            border: 1px solid #28a745;
+            color: #155724;
+            border-radius: 5px;
+            display: none; /* Hidden by default */
+        }
+        .show-answer-btn {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .show-answer-btn:hover {
+            background-color: #2980b9;
+        }
+        .reading-list ul, .tools-resources ul, .challenge ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .reading-list li, .tools-resources li, .challenge li {
+            margin-bottom: 8px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.3em;
+            }
+            h3 {
+                font-size: 1.1em;
+            }
+            .navigation {
+                flex-direction: column; /* Stack navigation links vertically */
+                gap: 10px; /* Space between stacked links */
+            }
+            .navigation a {
+                width: 100%; /* Make links full width */
+                text-align: center;
+            }
+        }
+        /* Added image styling */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 25px auto; /* Add some vertical spacing and center */
+            border-radius: 8px; /* Optional: subtle rounded corners for images */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+        }
+
+        /* Summary Section Styling */
+        .summary-section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0; /* Use a consistent border color */
+        }
+        .summary-section audio {
+            width: 100%;
+            max-width: 400px; /* Limit audio player width for better aesthetics */
+            display: block; /* Ensures it takes full width up to max-width */
+            margin-top: 15px;
+        }
+
+        /* Navigation Styling */
+        .navigation {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between; /* Puts links at ends */
+            align-items: center;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0; /* Use a consistent border color */
+        }
+        .navigation a {
+            text-decoration: none;
+            color: #3498db; /* Use a color consistent with existing theme */
+            padding: 10px 15px;
+            border: 1px solid #3498db;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            white-space: nowrap; /* Prevent text wrapping on buttons */
+        }
+        .navigation a:hover {
+            background-color: #3498db;
+            color: #fff;
+        }
+        .navigation a.disabled {
+            color: #ccc;
+            border-color: #ccc;
+            cursor: not-allowed;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Module 1: Cultivating the Essential GLP QA Auditor Mindset</h1>
+        <h2>Lesson 1.5: The Auditor's Toolkit: Effective Communication and Interview Techniques</h2>
+
+        <div class="lesson-section">
+            <h3>Introduction: Building Bridges, Not Walls</h3>
+            <p>You've honed your observational skills and sharpened your critical thinking. Now, it's time to add another crucial set of tools to your auditor's kit: effective communication and interview techniques. As a GLP QA auditor, you are not just reviewing documents; you are interacting with people. Your ability to communicate clearly, listen actively, and conduct effective interviews is paramount for gathering accurate information, understanding processes, uncovering root causes, and fostering a collaborative environment, even when delivering difficult news.</p>
+            <p>This lesson will guide you through the principles of professional communication and provide strategies for conducting productive interviews that yield valuable insights.</p>
+            <img src="images/communication_building_bridges.jpg" alt="Two cartoon characters building a bridge, symbolizing effective communication." title="Building Bridges Through Communication" width="512" height="512">
+        </div>
+
+        <div class="lesson-section">
+            <h3>Bite-sized Lesson: Defining Key Skills</h3>
+            <p>These skills are fundamental for successful auditing interactions:</p>
+            <ul>
+                <li><strong>Active Listening:</strong> More than just hearing words; it's about fully concentrating on what is being said, both verbally and non-verbally, understanding the message, and providing feedback to show comprehension.</li>
+                <li><strong>Clear and Concise Communication:</strong> The ability to convey information, questions, and findings in a straightforward, unambiguous, and professional manner, whether verbally or in writing. Avoid jargon where possible.</li>
+                <li><strong>Probing Questions:</strong> Asking questions designed to elicit detailed, specific, and relevant information. This includes knowing when to use open-ended questions (encouraging elaboration) versus closed-ended questions (for specific facts).</li>
+                <li><strong>Non-Verbal Communication:</strong> Understanding and interpreting body language, facial expressions, and tone of voice, both in others and in yourself. Your non-verbal cues can build or break rapport.</li>
+                <li><strong>Interviewing Techniques:</strong> The structured approach to engaging with personnel to gather information, clarify processes, and investigate deviations, while maintaining objectivity and professionalism.</li>
+            </ul>
+            <img src="images/communication_skills_composite.jpg" alt="A composite image showing characters demonstrating active listening, clear communication, and probing questions." title="Key Communication Skills" width="512" height="512">
+        </div>
+
+        <div class="lesson-section">
+            <h3>Simplified Explanation: The Auditor as a Facilitator</h3>
+            <p>Think of yourself not just as an inspector, but as a facilitator of quality. Effective communication helps you:</p>
+            <ul>
+                <li><strong>Gain Trust:</strong> People are more likely to share information openly if they feel respected and understood.</li>
+                <li><strong>Uncover Nuances:</strong> A document might say one thing, but an interview can reveal the practical application, potential workarounds, or underlying challenges.</li>
+                <li><strong>De-escalate Tension:</strong> Audits can be stressful. Your calm, professional, and empathetic communication can ease tension and prevent defensiveness.</li>
+                <li><strong>Ensure Clarity:</strong> When you present findings, clear communication ensures the auditee understands the issue, its impact, and what is required for resolution.</li>
+            </ul>
+            <p>It's about having a conversation, not an interrogation. Your goal is to gather facts and understand, not to assign blame.</p>
+        </div>
+
+        <div class="example">
+            <h3>Real-World Example: Interviewing a Reluctant Technician about a Data Entry Discrepancy</h3>
+            <p><strong>Scenario:</strong> During an audit of the Analytical department, you identify a discrepancy between the raw data (instrument printout) and the electronic data entry for a critical sample concentration. The instrument printout shows "10.2 ng/mL," but the LIMS system shows "12.0 ng/mL." You need to interview the technician responsible for the data entry.</p>
+            <p><strong>Elite QA Auditor Mindset (Applying Communication &amp; Interview Techniques):</strong></p>
+            <ol>
+                <li><strong>Preparation &amp; Rapport Building:</strong>
+                    <ul>
+                        <li>You review the relevant SOPs for data entry and review, and the instrument's operational logs.</li>
+                        <li>You approach the technician calmly, introduce yourself and the purpose of your visit (e.g., "I'm reviewing data from Study XYZ and have a question about a specific entry. Do you have a few minutes to discuss it?"). You choose a private, quiet setting.</li>
+                    </ul>
+                </li>
+                <li><strong>Open-Ended Questioning &amp; Active Listening:</strong>
+                    <ul>
+                        <li>Instead of "Why did you enter the wrong number?", you start with: "Can you walk me through your process for entering data from the instrument printout into the LIMS system for this type of analysis?" (Open-ended, process-focused).</li>
+                        <li>You listen carefully, not interrupting, allowing them to explain their routine. You observe their body language (e.g., are they nervous, confident, confused?).</li>
+                    </ul>
+                </li>
+                <li><strong>Probing for Detail &amp; Clarification:</strong>
+                    <ul>
+                        <li>Once they describe the general process, you gently introduce the specific discrepancy: "I'm looking at this entry for sample A-123. The printout shows 10.2, but the LIMS shows 12.0. Can you explain what might have happened here?"</li>
+                        <li>If they say, "Oh, I must have made a typo," you might ask, "How do you typically catch typos during your data review process?" or "Is there a secondary verification step for these entries?" (Probing for controls, not just the single error).</li>
+                    </ul>
+                </li>
+                <li><strong>Handling Resistance/Defensiveness:</strong>
+                    <ul>
+                        <li>If the technician becomes defensive ("It's just one number, it happens!"), you maintain a neutral, professional tone. "I understand that errors can occur. My role is to understand the process and identify any systemic issues that might lead to such discrepancies, to help improve overall data quality." (Reiterate objective, focus on process, not blame).</li>
+                        <li>You might ask, "Is there anything about the LIMS system or the instrument printout that makes data entry challenging?" (Seeking potential root causes beyond individual error).</li>
+                    </ul>
+                </li>
+                <li><strong>Summarizing &amp; Confirming:</strong>
+                    <ul>
+                        <li>"So, if I understand correctly, you manually enter the data, and then you typically double-check it against the printout, but in this instance, it appears the double-check might have been missed or wasn't effective. Is that accurate?" (Confirms understanding, allows correction).</li>
+                    </ul>
+                </li>
+            </ol>
+            <h4>Key Takeaways from Example:</h4>
+            <ul>
+                <li><strong>Rapport is Key:</strong> A non-confrontational approach encourages openness.</li>
+                <li><strong>Focus on Process, Not Person:</strong> Frame questions around the "how" and "why" of the process, not just the "who" made the mistake.</li>
+                <li><strong>Listen More, Talk Less:</strong> Active listening reveals critical information.</li>
+                <li><strong>Non-Verbal Cues Matter:</strong> Both yours (calm, open posture) and theirs (nervousness, frustration) provide context.</li>
+                <li><strong>Clarity and Objectivity:</strong> Ensure the auditee understands the issue and your objective.</li>
+            </ul>
+            <img src="images/interview_process_not_person.jpg" alt="A calm auditor interviewing a nervous technician, focusing on the process, not blame." title="Focus on Process, Not Person" width="512" height="512">
+        </div>
+
+        <div class="lesson-section">
+            <h3>Cultivating Strong Communication and Interview Skills</h3>
+            <p>Like any skill, effective communication and interviewing improve with practice and conscious effort. Here’s how to develop them:</p>
+            <ol>
+                <li><strong>Prepare Thoroughly for Each Interaction:</strong>
+                    <ul>
+                        <li>Know the topic, the relevant SOPs, and any prior findings. This shows respect for the auditee's time and expertise.</li>
+                        <div class="glp-sub-example">
+                            <strong>GLP Example:</strong> Before interviewing a Study Director about a study report, review the study plan, raw data summaries, and any previous audit findings related to that study or department. This allows you to ask precise, informed questions.
+                        </div>
+                    </ul>
+                </li>
+                <li><strong>Start with Rapport and Set the Stage:</strong>
+                    <ul>
+                        <li>Begin with a brief, friendly introduction. Clearly state the purpose of the interview and what you hope to achieve.</li>
+                        <div class="glp-sub-example">
+                            <strong>GLP Example:</strong> "Good morning, [Name]. I'm [Your Name], from QA. I'm conducting a routine audit of the archiving process, and I'd appreciate a few minutes of your time to understand how records are managed. My goal is to ensure compliance and identify any areas for improvement."
+                        </div>
+                    </ul>
+                </li>
+                <li><strong>Ask Open-Ended Questions First:</strong>
+                    <ul>
+                        <li>Encourage the auditee to provide detailed explanations in their own words. Use "what," "how," "why," "describe," "explain."</li>
+                        <div class="glp-sub-example">
+                            <strong>GLP Example:</strong> Instead of "Do you calibrate the balance daily?", ask "Can you describe your daily routine for ensuring the analytical balance is ready for use?" This invites a more comprehensive answer.
+                        </div>
+                    </ul>
+                </li>
+                <li><strong>Listen Actively and Take Effective Notes:</strong>
+                    <ul>
+                        <li>Focus entirely on the speaker. Avoid interrupting. Use verbal (e.g., "I see," "uh-huh") and non-verbal cues (nodding, eye contact) to show engagement. Jot down key points and potential follow-up questions.</li>
+                        <div class="glp-sub-example">
+                            <strong>GLP Example:</strong> While a technician explains a complex sample preparation, you actively listen, occasionally nodding, and note down the specific steps, chemicals, and equipment mentioned, allowing you to later cross-reference with the SOP.
+                        </div>
+                    </ul>
+                </li>
+                <li><strong>Observe Non-Verbal Cues:</strong>
+                    <ul>
+                        <li>Pay attention to body language, tone, and facial expressions. These can provide context or indicate discomfort, confusion, or defensiveness.</li>
+                        <div class="glp-sub-example">
+                            <strong>GLP Example:</strong> If an auditee avoids eye contact or shifts uncomfortably when asked about a specific logbook entry, it might signal an area where further, sensitive probing is required.
+                        </div>
+                    </ul>
+                </li>
+                <li><strong>Summarize and Confirm Understanding:</strong>
+                    <ul>
+                        <li>Periodically summarize what you've heard to ensure accuracy and give the auditee a chance to correct any misunderstandings.</li>
+                        <div class="glp-sub-example">
+                            <strong>GLP Example:</strong> "So, just to confirm, the reason for the delay in sample analysis was due to the instrument malfunction, and the repair was documented in the maintenance log, correct?"
+                        </div>
+                    </ul>
+                </li>
+                <li><strong>Handle Resistance and Difficult Conversations Professionally:</strong>
+                    <ul>
+                        <li>Stay calm, objective, and empathetic. Reiterate your role and the purpose of the audit (improving quality, ensuring compliance). Avoid arguments.</li>
+                        <div class="glp-sub-example">
+                            <strong>GLP Example:</strong> If an auditee says, "QA always finds problems, no matter what we do," you might respond, "I understand it can feel that way. Our aim is to help identify areas where processes can be strengthened to prevent future issues, which ultimately benefits everyone and the integrity of our studies."
+                        </div>
+                    </ul>
+                </li>
+                <li><strong>Practice and Seek Feedback:</strong>
+                    <ul>
+                        <li>The more you practice, the better you'll become. Ask senior auditors or your manager for feedback on your communication style and interview techniques.</li>
+                        <div class="glp-sub-example">
+                            <strong>GLP Example:</strong> After an audit, ask your manager, "How did I handle that interview with the lab manager regarding the deviation? Was my questioning clear? Did I manage their defensiveness effectively?"
+                        </div>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="quiz-question">
+            <h3>Checkpoint: Quick Quiz</h3>
+            <p>You are interviewing a new technician about their understanding of a critical SOP. They give very short, "yes" or "no" answers. Which type of question should you primarily use to get more detailed information?</p>
+            <ol>
+                <li>Closed-ended questions to confirm facts.</li>
+                <li>Leading questions to guide their answers.</li>
+                <li>Open-ended questions to encourage elaboration.</li>
+                <li>Hypothetical questions to test their knowledge.</li>
+            </ol>
+            <button class="show-answer-btn" onclick="document.getElementById('answer1').style.display='block'; this.style.display='none';">Show Answer</button>
+            <div id="answer1" class="answer-reveal">
+                <p><strong>Correct Answer:</strong> c) Open-ended questions to encourage elaboration.</p>
+                <p><strong>Explanation:</strong> Open-ended questions (e.g., "Can you describe...", "How do you ensure...", "What steps do you take...") compel the auditee to provide more than a simple yes/no, allowing you to assess their true understanding and identify any gaps in their knowledge or process. Closed-ended questions are useful for confirming specific facts later, but not for initial information gathering from a reticent interviewee.</p>
+            </div>
+        </div>
+
+        <div class="lesson-section reading-list">
+            <h3>Reading List (For Deeper Dive - 10-15 minutes)</h3>
+            <ul>
+                <li><strong>OECD Series on Principles of GLP and Compliance Monitoring, No. 1:</strong> <em>OECD Principles of Good Laboratory Practice (as revised in 1997)</em> - Review Section 2.1 (Study Conduct) and Section 2.2 (Personnel), focusing on the need for qualified personnel and clear responsibilities, which effective communication helps verify. (Available on OECD website)</li>
+                <li><strong>21 CFR Part 58:</strong> <em>Good Laboratory Practice for Nonclinical Laboratory Studies</em> - Review Subpart B (Organization and Personnel) for requirements related to personnel qualifications and responsibilities. (Available on FDA website)</li>
+                <li><strong>"Crucial Conversations: Tools for Talking When Stakes Are High" by Kerry Patterson et al.:</strong> A highly recommended book for developing skills in high-stakes discussions, directly applicable to audit findings. (Available in libraries or online)</li>
+            </ul>
+        </div>
+
+        <div class="lesson-section tools-resources">
+            <h3>Relevant Tools/Resources</h3>
+            <ul>
+                <li><strong>Interview Guides/Checklists:</strong> Pre-prepared questions to ensure all necessary areas are covered.</li>
+                <li><strong>Active Listening Techniques:</strong> Online tutorials or workshops on paraphrasing, clarifying, and summarizing.</li>
+                <li><strong>Communication Models:</strong> Understanding basic communication models (sender-message-receiver-feedback) can help identify where breakdowns occur.</li>
+            </ul>
+        </div>
+
+        <div class="lesson-section challenge">
+            <h3>Optional Challenge (For Deeper Learning - 10 minutes)</h3>
+            <p><strong>Scenario Analysis:</strong> You need to interview a department head who is known for being very busy and somewhat dismissive of QA. You have identified a recurring issue in their department's documentation. How would you prepare for this interview, and what specific communication strategies would you employ to ensure a productive discussion and gain their cooperation?</p>
+            <p><strong>Personal Reflection:</strong> Think about a recent conversation (personal or professional) where communication was challenging. How could applying one or two of the techniques from this lesson have improved the outcome?</p>
+        </div>
+
+        <div class="summary-section">
+            <h2>Summary Audio</h2>
+            <audio controls="">
+                <source src="audio/summary-1-5.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>Listen to a quick summary of this lesson.</p>
+        </div>
+
+        <div class="navigation">
+            <a href="QA-1.4.html">Previous Lesson</a>
+            <a href="#" class="disabled">Next Lesson</a>
+        </div>
+
+        <footer>
+            <p>End of Lesson 1.5. You are now equipped with essential communication skills!</p>
+            <p>Next Lesson: Module 2, Lesson 2.1: Understanding the GLP Regulatory Framework: A Deep Dive into OECD and FDA Regulations</p>
+            <p>© 2025 Yin Kiu Cheung, PhD, RQAP-GLP. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Simple script to toggle answer visibility for the quiz
+        function showAnswer(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+    </script>
+
+
+</body></html>
